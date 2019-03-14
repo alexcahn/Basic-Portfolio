@@ -20,6 +20,7 @@ body{
 .top-text{
     width: 960px;
     margin: auto;
+    margin-bottom: 10px;
 }
 
 
@@ -92,9 +93,9 @@ footer {
     text-align: center;
     border-top: #4aaaa5 solid 5px;
     font-family: Arial, Helvetica, sans-serif;
-    position: fixed;
     bottom: 0;
     width: 100%;
+    margin-top: 25px;
 }
 
 footer p{
@@ -117,7 +118,6 @@ form{
 }
 
 .games p{
-    /* background-color: #4aaaa5; */
     color: #ffffff;
     width: 300px;
     text-align: center;
@@ -126,14 +126,13 @@ form{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 60px;
 }
 
 .games a{
     text-decoration: none;
     display: block;
     background-color: #4aa;
-    width: 95%;/*can you restar the live server? i can't see how it looks, can you see it at the bottom of vs? i just restarted liv server */
+    width: 95%;
     font-size: 1em;
     color: #ffffff;
     padding: 10px;
@@ -175,6 +174,7 @@ form{
     height: 300px;
     background-repeat: no-repeat;
     background-position: 100% 100%;
+    margin-bottom: 60px;
 }
 
 .clearfix::after {
